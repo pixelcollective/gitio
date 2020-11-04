@@ -1,3 +1,2 @@
-declare const _default: import("ink").Instance;
-export default _default;
+export {};
 //# sourceMappingURL=index.d.ts.map

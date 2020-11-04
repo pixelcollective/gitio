@@ -55,4 +55,4 @@ const Shortener = ({ request }: { request: Array<string> }) => {
   );
 };
 
-export default render(<Shortener request={process.argv.splice(2)} />);
+render(<Shortener request={process.argv.splice(2)} />);
