@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
-    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "jsx": "react",
     "declaration": true,
     "declarationMap": true,
-    "importHelpers": true,
-    "strict": true,
+    "sourceMap": true,
+    "importHelpers": false,
     "outDir": "./bin",
-    "esModuleInterop": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },

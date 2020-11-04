@@ -1,12 +1,9 @@
-#!/usr/bin/env node
-
-import * as React from "react";
-import { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Text, Box, render, Newline } from "ink";
 import axios from "axios";
 
 const Shortener = ({ request }: { request: Array<string> }) => {
-  const [shorts, setShorts] = useState<Array<{ req: string; res: string }>>([]);
+  const [shorts, setShorts] = useState<Array<any>>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
