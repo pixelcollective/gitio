@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import React, { useEffect, useState } from "react";
+import * as React from "react";
+import { useState, useEffect } from "react";
 import { Text, Box, render, Newline } from "ink";
-import Spinner from "ink-spinner";
 import axios from "axios";
 
 const Shortener = ({ request }: { request: Array<string> }) => {

@@ -1,22 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
     "allowJs": true,
     "jsx": "react",
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
-    "outDir": "./bin",
-    "rootDir": "./src",
-    "importHelpers": false,
+    "importHelpers": true,
     "strict": true,
-    "moduleResolution": "node",
-    "baseUrl": "./",
-    "rootDirs": ["./src"],
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
+    "outDir": "./bin",
+    "esModuleInterop": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "files": ["./src/index.tsx"]
 }
