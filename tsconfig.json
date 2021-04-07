@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
     "moduleResolution": "node",
+    "module": "CommonJS",
     "jsx": "react",
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
+    "composite": true,
     "importHelpers": false,
-    "outDir": "./bin",
+    "outDir": "lib",
+    "rootDir": "src",
     "allowJs": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "files": ["./src/index.tsx"]
+  "files": ["src/gitio.tsx"]
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import React, { useEffect, useState } from "react";
 import { Text, Box, render, Newline } from "ink";
 import axios from "axios";
